@@ -1,21 +1,30 @@
-" use strict";
-const NumberOfFilms = +prompt('How many movies have you seen??')
-
-const moviebd = {
-    count: NumberOfFilms,
-    movies: {},//пустой объект 
-    actors: {},
-    geners: [],
-    ptivat: false
-};
+"use strict";
+ 
 
 
-const a = prompt( "Послед фильм?",""),
-      b = prompt("dfdf?", ""),
-      c = prompt("dfsssdf?", ""),
-      d = prompt("dfdffffff?", "");
+// if(num<49){
+//     console.log('err')
+// }else if (num>100){
+//     console.log("er1");
+// }else {
+// console.log("verno")
+// }
 
-  moviebd.movies[a]=b; 
-  moviebd.movies[c]=d; 
-  
-  console.log(moviebd);
+// (num===20)? console.log("ok!"): console.log("err");
+
+
+const num = 50;
+
+switch(num){
+case 49:
+          console.log("log?");
+    break;
+    case 100:
+      console.log("fdfd?");
+      break;
+     case 5:
+        console.log("okkk???");
+        break;  
+        default:
+            console.log("ne vishlo");     
+}
