@@ -65,3 +65,6 @@ function writeYourGenres() {
 }
 
 writeYourGenres();
+
+console.log();
+// tooooje samoe 
